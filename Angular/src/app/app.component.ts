@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Task',
+      title: 'Notification',
       url: '/task',
       icon: 'mail'
     }
