@@ -29,13 +29,13 @@ export class TaskPage implements OnInit {
   tasks: Task[] =
     [
       {
-        title: 'To Do', count_now: 5, count_started: 1, icon: 'time-outline', color: 'danger'
+        title: 'To Do', count_now: 4, count_started: 4, icon: 'time-outline', color: 'danger'
       },
       {
         title: 'In Progress', count_now: 1, count_started: 1, icon: 'refresh-outline', color: 'primary'
       },
       {
-        title: 'Done', count_now: 18, count_started: 18, icon: 'play-forward-outline', color: 'blue'
+        title: 'Done', count_now: 6, count_started: 6, icon: 'play-forward-outline', color: 'blue'
       }
     ];
 
