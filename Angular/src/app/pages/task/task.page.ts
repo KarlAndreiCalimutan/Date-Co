@@ -41,12 +41,17 @@ export class TaskPage implements OnInit {
 
   projects: Project[] = [
     {
-      title: 'Medical App', subTitle: '9 hours progress', percentage: 25, color: 'success', colorHex: '#309397'
+      title: 'Thesis', subTitle: '9 hours progress', percentage: 25, color: 'success', colorHex: '#309397'
     },
     {
-      title: 'Sport App', subTitle: '40 hours progress', percentage: 75, color: 'danger', colorHex: '#e46472'
+      title: 'Capstone', subTitle: '40 hours progress', percentage: 75, color: 'danger', colorHex: '#e46472'
+    },
+    {
+      title: 'Final Project', subTitle: '2 hours progress', percentage: 5, color: 'primary', colorHex: '#F9BE7C'
+    },
+    {
+      title: 'Designing', subTitle: '56 hours progress', percentage: 95, color: 'blue', colorHex: '#6488e4'
     }
-
   ];
 
 

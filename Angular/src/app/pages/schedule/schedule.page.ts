@@ -13,15 +13,27 @@ export class SchedulePage implements OnInit {
     {
       hour: 1,
       colorHex: '#F9BE7C',
-      title: 'Project Research',
-      description: undefined
+      title: 'Final Project',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     },
     {
       hour: 5,
       colorHex: '#e77480',
-      title: 'Call',
-      description: ''
-    }
+      title: 'Capstone',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
+    {
+      hour: 8,
+      colorHex: '#7494e7',
+      title: 'Designing.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
+    {
+      hour: 1,
+      colorHex: '#459ea1',
+      title: 'Thesis',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
 
   ];
 

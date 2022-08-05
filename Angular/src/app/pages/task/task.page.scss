@@ -106,7 +106,6 @@ ion-header {
 
         .fill,
         .mask {
-            -webkit-backface-visibility: hidden;
             transition: -webkit-transform $transition-length;
             transition: -ms-transform $transition-length;
             transition: transform $transition-length;
